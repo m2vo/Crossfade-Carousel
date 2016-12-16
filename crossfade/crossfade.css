@@ -1,0 +1,22 @@
+/*
+CARROUSEL AVEC FADING
+M2VO © 2016
+*/
+
+.crossfade-carousel {
+    position: relative;
+    height: 27vw;
+}
+.crossfade-carousel img {
+    position: absolute;
+    left:0;
+    width : 100%;
+    height: 27vw;
+    -webkit-transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -o-transition: opacity 2s ease-in-out;
+    transition: opacity 2s ease-in-out;
+}
+.crossfade-carousel ul {
+    display: none;
+}
